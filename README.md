@@ -3,7 +3,18 @@ These notebooks present preliminary experiments on GRB localization using an unb
 
 
 # Results
-Using Toy Data
-Mean Angular Deviation | Median Angular Deviation | RMS Angular Deviation 
---- | --- | --- | --- | ---
-95.45 | 92.85 | 93.91 
+
+Using Toy Data with Resolution = 5 deg
+No of Compton Events | No of Background Events | Mean Angular Deviation | Median Angular Deviation | RMS Angular Deviation 
+--- | --- | --- | --- | --- 
+2000 | 0 | 93.91 | | 
+1333 | 667 | 93.91 | | 
+1000 | 1000 | 93.91 | | 
+
+
+Using Toy Data with Resolution = 3 deg
+No of Compton Events | No of Background Events | Mean Angular Deviation | Median Angular Deviation | RMS Angular Deviation 
+--- | --- | --- | --- | --- 
+2000 | 0 | 93.91 | | 
+1333 | 667 | 93.91 | | 
+1000 | 1000 | 93.91 | | 
