@@ -36,3 +36,118 @@ No of Compton Events | No of Background Events | Mean Angular Deviation | Median
 2000 | 0 | 93.91 | | 
 1333 | 667 | 93.91 | | 
 1000 | 1000 | 93.91 | | 
+
+
+
+
+## Results
+
+> [!NOTE]
+> **Binned vs. Unbinned.**  
+> *Binned* = histograms constructed from events; *Unbinned* = per-event likelihood (no histograms).  
+> All angles are in **degrees (°)**.
+
+### Toy Data
+
+<details>
+  <summary><b>▶ Binned results (shown below)</b></summary>
+
+**Resolution = 5°**
+
+No. Compton | No. Background | Mean Angular Dev. | Median Angular Dev. | RMS Angular Dev.
+:--:|:--:|:--:|:--:|:--:
+2000 | 0    | 93.91 |  | 
+1333 | 667  | 93.91 |  | 
+1000 | 1000 | 93.91 |  | 
+
+**Resolution = 3°**
+
+No. Compton | No. Background | Mean Angular Dev. | Median Angular Dev. | RMS Angular Dev.
+:--:|:--:|:--:|:--:|:--:
+2000 | 0    | 93.91 |  | 
+1333 | 667  | 93.91 |  | 
+1000 | 1000 | 93.91 |  | 
+
+</details>
+
+<details>
+  <summary><b>▶ Unbinned results</b></summary>
+
+> [!TIP]
+> Replace the placeholders below with your unbinned metrics once computed.
+
+**Resolution = 5°**
+
+No. Compton | No. Background | Mean Angular Dev. | Median Angular Dev. | RMS Angular Dev.
+:--:|:--:|:--:|:--:|:--:
+2000 | 0    | — | — | — 
+1333 | 667  | — | — | — 
+1000 | 1000 | — | — | — 
+
+**Resolution = 3°**
+
+No. Compton | No. Background | Mean Angular Dev. | Median Angular Dev. | RMS Angular Dev.
+:--:|:--:|:--:|:--:|:--:
+2000 | 0    | — | — | — 
+1333 | 667  | — | — | — 
+1000 | 1000 | — | — | — 
+
+</details>
+
+---
+
+### MEGAlib Simulated Data
+
+<details>
+  <summary><b>▶ Binned results (shown below)</b></summary>
+
+**Resolution = 5°**
+
+No. Compton | No. Background | Mean Angular Dev. | Median Angular Dev. | RMS Angular Dev.
+:--:|:--:|:--:|:--:|:--:
+2000 | 0    | 93.91 |  | 
+1333 | 667  | 93.91 |  | 
+1000 | 1000 | 93.91 |  | 
+
+**Resolution = 3°**
+
+No. Compton | No. Background | Mean Angular Dev. | Median Angular Dev. | RMS Angular Dev.
+:--:|:--:|:--:|:--:|:--:
+2000 | 0    | 93.91 |  | 
+1333 | 667  | 93.91 |  | 
+1000 | 1000 | 93.91 |  | 
+
+</details>
+
+<details>
+  <summary><b>▶ Unbinned results</b></summary>
+
+**Resolution = 5°**
+
+No. Compton | No. Background | Mean Angular Dev. | Median Angular Dev. | RMS Angular Dev.
+:--:|:--:|:--:|:--:|:--:
+2000 | 0    | — | — | — 
+1333 | 667  | — | — | — 
+1000 | 1000 | — | — | — 
+
+**Resolution = 3°**
+
+No. Compton | No. Background | Mean Angular Dev. | Median Angular Dev. | RMS Angular Dev.
+:--:|:--:|:--:|:--:|:--:
+2000 | 0    | — | — | — 
+1333 | 667  | — | — | — 
+1000 | 1000 | — | — | — 
+
+</details>
+
+---
+
+#### Metric definitions
+
+- **Mean Angular Deviation**: \(\frac{1}{N}\sum_i \Delta\theta_i\)  
+- **Median Angular Deviation**: 50th percentile of \(\Delta\theta\)  
+- **RMS Angular Deviation**: \(\sqrt{\frac{1}{N}\sum_i \Delta\theta_i^2}\)
+
+> [!IMPORTANT]
+> Reported numbers above in **Binned** sections are placeholders you supplied; fill in missing **Median**/**RMS** cells as you compute them.  
+> Keep resolutions grouped to make comparisons easy across background levels.
